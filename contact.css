@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #6b6b6b;
+  color: white;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  align-items: center;
+}
+
+.nav-left a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  background: #8a8a8a;
+  padding: 10px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+/* MAIN CONTAINER */
+*{
+    margin: 0;
+    font-family: Arial;
+    background: #6e6e6e;
+    color: white;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+/* Contact Form */
+.form {
+    width: 40%;
+}
+
+.form h1 {
+    font-size: 40px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    border: none;
+    border-bottom: 2px solid white;
+    background: transparent;
+    color: white;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+
+.social-box {
+    width: 40%;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-box h1 {
+    margin-bottom: 20px;
+}
+
+
+.icons img {
+    width: 80px;
+    margin: 15px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.icons img:hover {
+    transform: scale(1.1);
+}
+
+.popup {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.2);
+    display: none;
+}

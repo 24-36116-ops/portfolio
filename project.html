@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kebi Portfolio</title>
+  <link rel="stylesheet" href="project.css">
+</head>
+<body>
+
+
+<header>
+  <nav class="navbar">
+    <div class="nav-left">
+      <a href="Untitled-2.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="project.html">Project</a>
+      <a href="gallery.html">Gallery</a>
+    </div>
+     <div class="nav-right">
+            <span>KEBI</span>
+        </div>
+  </nav>
+</header>
+
+
+<section class="section">
+  <h2 class="title">Project</h2>
+
+  <div class="slider-wrapper">
+    <button class="arrow left" onclick="scrollSlider('projectSlider', -1)">&#9664;</button>
+
+    <div class="slider" id="projectSlider">
+      <img src="c:\Users\kcaga\OneDrive\Pictures\Screenshots\Screenshot 2026-05-02 042241.png" onclick="openPopup(this.src)">
+      <img src="c:\Users\kcaga\OneDrive\Pictures\Screenshots\Screenshot 2026-05-03 142233.png" onclick="openPopup(this.src)">
+      <img src="images/project3.jpg" onclick="openPopup(this.src)">
+      <img src="images/project4.jpg" onclick="openPopup(this.src)">
+       <img src="images/project4.jpg" onclick="openPopup(this.src)">
+        <img src="images/project4.jpg" onclick="openPopup(this.src)">
+    </div>
+
+    <button class="arrow right" onclick="scrollSlider('projectSlider', 1)">&#9654;</button>
+  </div>
+</section>
+
+<section class="section">
+  <h2 class="title">Work Experience</h2>
+
+  <div class="slider-wrapper">
+    <button class="arrow left" onclick="scrollSlider('workSlider', -1)">&#9664;</button>
+
+    <div class="slider" id="workSlider">
+      <img src="c:\Users\kcaga\OneDrive\Pictures\Screenshots\water-refilling-station-business-in-the-philippines.webp" onclick="openPopup(this.src)">
+      <img src="images/work2.jpg" onclick="openPopup(this.src)">
+      <img src="images/work3.jpg" onclick="openPopup(this.src)">
+      <img src="images/work4.jpg" onclick="openPopup(this.src)">
+      <img src="images/work4.jpg" onclick="openPopup(this.src)">
+      <img src="images/work4.jpg" onclick="openPopup(this.src)">
+
+    </div>
+
+    <button class="arrow right" onclick="scrollSlider('workSlider', 1)">&#9654;</button>
+  </div>
+</section>
+
+
+<div id="popup" onclick="closePopup()">
+  <span class="close">&times;</span>
+  <img id="popup-img">
+</div>
+
+<script src="project.js"></script>
+</body>
+</html>
